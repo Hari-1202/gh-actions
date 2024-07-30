@@ -1,0 +1,11 @@
+name: MANUAL_DISPATCH_ACTIONS
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu_latest
+    steps:
+      - name: print_greeting
+        run: echo "hello world"
+      - name: print_bye
+        run: echo "byee"
+    
